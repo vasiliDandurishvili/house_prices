@@ -1,4 +1,27 @@
 # house_prices
+
+# სახლის ფასების პროგნოზირება - Kaggle Competition
+
+## Kaggle-ის კონკურსის მოკლე მიმოხილვა
+
+ეს პროექტი მონაწილეობს Kaggle-ის "House Prices: Advanced Regression Techniques" კონკურსში. მიზანია საცხოვრებელი სახლების გაყიდვის ფასების პროგნოზირება 79 ფიჩერზე დაყრდნობით. შეფასების მეტრიკაა RMSLE (Root Mean Squared Logarithmic Error).
+
+## მიდგომა პრობლემის გადასაჭრელად
+
+მოდელის შექმნის პროცესი მოიცავდა რამდენიმე ძირითად ეტაპს:
+
+1. Cleaning
+2. Feature Engineering
+3. Feature Selection
+4. Training
+
+## რეპოზიტორიის სტრუქტურა
+house_prices/
+├── README.md # პროექტის დოკუმენტაცია
+├── model_experiment.ipynb # ძირითადი ექსპერიმენტები
+├── model_inference.ipynb # ტესტ მონაცემებზე პროგნოზი
+
+
 1. მონაცემების ჩატვირთვა და საწყისი მომზადება
 ჩატვირთე ტრენინგ მონაცემები (train.csv) და ტესტ მონაცემები (test.csv)
 
